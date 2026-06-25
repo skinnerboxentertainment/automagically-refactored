@@ -179,6 +179,23 @@ export const EditorLayerSchema = z.object({
   groups: z.record(z.string(), EditorGroupSchema).default({}),
 })
 
+// --- Audio ---
+export const AudioCueSchema = z.object({
+  id: z.string(),
+  key: z.string(),
+  type: z.enum(["sfx", "music", "ui", "ambience", "voice"]),
+  spriteKey: z.string().optional(),
+  loops: z.boolean().default(false),
+  volume: z.number().min(0).max(1).default(1),
+  group: z.enum(["sfx", "music", "voice", "ui"]).default("sfx"),
+  spatial: z.boolean().default(false),
+  description: z.string().optional(),
+})
+
+export const AudioLayerSchema = z.object({
+  cues: z.record(z.string(), AudioCueSchema).default({}),
+})
+
 // --- Plugins ---
 export const PluginMetadataSchema = z.object({
   id: z.string(),
@@ -201,5 +218,6 @@ export const NarrativeDocumentV2Schema = z.object({
   presentation: PresentationLayerSchema,
   runtime: RuntimeLayerSchema,
   editor: EditorLayerSchema,
+  audio: AudioLayerSchema.default({ cues: {} }),
   plugins: PluginLayerSchema,
 })

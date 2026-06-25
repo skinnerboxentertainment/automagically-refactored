@@ -43,6 +43,9 @@ export type EditorGroup = z.infer<typeof schemas.EditorGroupSchema>
 export type EditorLayer = z.infer<typeof schemas.EditorLayerSchema>
 
 export type PluginMetadata = z.infer<typeof schemas.PluginMetadataSchema>
+export type AudioCue = z.infer<typeof schemas.AudioCueSchema>
+export type AudioLayer = z.infer<typeof schemas.AudioLayerSchema>
+
 export type PluginLayer = z.infer<typeof schemas.PluginLayerSchema>
 
 export interface NarrativeDocumentV2 {
@@ -53,5 +56,6 @@ export interface NarrativeDocumentV2 {
   presentation: PresentationLayer
   runtime: RuntimeLayer
   editor: EditorLayer
+  audio: AudioLayer
   plugins: PluginLayer
 }

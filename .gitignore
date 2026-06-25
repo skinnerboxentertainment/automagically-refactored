@@ -20,6 +20,9 @@ production/session-logs/
 # === Runtime Artifacts ===
 docs/consistency-failures.md
 
+# === Generated Assets ===
+assets/audio/generated/
+
 # === Build Output ===
 node_modules/
 .npm/

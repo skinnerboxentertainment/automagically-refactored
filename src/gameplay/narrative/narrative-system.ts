@@ -69,8 +69,8 @@ export class NarrativeSystem {
       nodeId: this.state.currentNodeId,
       sceneId: scene.id,
       title: scene.title,
-      blocks: scene.blocks.map((b) => {
-        const block: Record<string, unknown> = { type: b.type }
+      blocks: scene.blocks.map((b): { type: string; text?: string; characterId?: string; url?: string } => {
+        const block: { type: string; text?: string; characterId?: string; url?: string } = { type: b.type }
         if (b.type === "paragraph" || b.type === "action") {
           const payload = b.payload as { text: string }
           block.text = this.engine.interpolateText(payload.text, this.state!.variables)

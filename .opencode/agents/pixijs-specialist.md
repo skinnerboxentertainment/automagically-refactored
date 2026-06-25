@@ -1,5 +1,5 @@
 ---
-description: PixiJS v8 rendering specialist — scene graph, sprites, graphics, particles, shaders, performance optimization, and cross-browser WebGL/WebGPU/Canvas rendering
+description: "PixiJS v8 rendering specialist — scene graph, sprites, graphics, particles, shaders, performance optimization, and cross-browser WebGL/WebGPU/Canvas rendering"
 mode: subagent
 model: tier:sonnet
 steps: 20
