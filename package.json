@@ -4,6 +4,7 @@
   "private": true,
   "description": "OpenCode PixiJS Game Studio — browser game built with PixiJS v8 + TypeScript",
   "type": "module",
+  "workspaces": ["packages/*"],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

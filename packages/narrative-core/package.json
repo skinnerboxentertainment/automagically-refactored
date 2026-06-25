@@ -1,0 +1,12 @@
+{
+  "name": "@automagically/narrative-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Pure-logic narrative document format, engine, and graph analysis — extracted from Narrative Workbench",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "zod": "^4.4.3"
+  }
+}
