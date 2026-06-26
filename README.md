@@ -274,6 +274,10 @@ Primary development and testing on **Windows 11** with PowerShell 7+. OpenCode i
 
 *Built for [OpenCode](https://opencode.ai).*
 
+Thanks to [Donchitos](https://github.com/Donchitos) for the original
+[Claude Code Game Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)
+project that this template was derived from.
+
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
