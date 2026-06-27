@@ -31,7 +31,7 @@ Store these findings internally to validate the user's self-assessment and tailo
 
 This is the first thing the user sees. Present these options and ask the user to pick one:
 
-- **Prompt**: "Welcome to OpenCode PixiJS Game Studio! Before I suggest anything, I'd like to understand where you're starting from. Where are you at with your game idea right now?"
+- **Prompt**: "Welcome to AutoMagically Built Games! Before I suggest anything, I'd like to understand where you're starting from. Where are you at with your game idea right now?"
 - **Options**:
   - `A) No idea yet` — I don't have a game concept at all. I want to explore and figure out what to make.
   - `B) Vague idea` — I have a rough theme, feeling, or genre in mind (e.g., "something with space" or "a cozy farming game") but nothing concrete.

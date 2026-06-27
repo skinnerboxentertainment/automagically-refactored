@@ -1,8 +1,8 @@
 {
-  "name": "my-game",
+  "name": "automagically-built-games",
   "version": "0.1.0",
   "private": true,
-  "description": "OpenCode PixiJS Game Studio — browser game built with PixiJS v8 + TypeScript",
+  "description": "AutoMagically Built Games — browser game built with PixiJS v8 + TypeScript",
   "type": "module",
   "workspaces": [
     "packages/*"

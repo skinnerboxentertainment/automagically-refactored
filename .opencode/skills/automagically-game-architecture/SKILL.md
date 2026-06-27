@@ -1,6 +1,6 @@
 ---
 name: automagically-game-architecture
-description: "Non-negotiable game architecture rules for the AutoMagically project. Load this skill when designing, implementing, or reviewing game code. Defines scene lifecycle, state ownership, update loop, input handling, composition model, project structure, and save/load conventions. All game code must follow these rules."
+description: "Non-negotiable game architecture rules for the AutoMagically Built Games project. Load this skill when designing, implementing, or reviewing game code. Defines scene lifecycle, state ownership, update loop, input handling, composition model, project structure, and save/load conventions. All game code must follow these rules."
 allowed-tools: Read, Glob, Grep, Write, Edit, Bash, Task, Question
 model: opencode-go/deepseek-v4-flash
 ---

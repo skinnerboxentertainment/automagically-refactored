@@ -1,6 +1,6 @@
 ---
 name: automagically-audio
-description: "Howler.js audio lifecycle for AutoMagically. Defines audio initialization, unlock handling, music/SFX buses, mute/volume persistence, scene cleanup, and test doubles. Load when implementing audio systems or writing audio-related code."
+description: "Howler.js audio lifecycle for AutoMagically Built Games. Defines audio initialization, unlock handling, music/SFX buses, mute/volume persistence, scene cleanup, and test doubles. Load when implementing audio systems or writing audio-related code."
 allowed-tools: Read, Glob, Grep, Write, Edit, Bash, Task, Question
 model: opencode-go/deepseek-v4-flash
 ---

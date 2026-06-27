@@ -1,4 +1,4 @@
-# OpenCode PixiJS Game Studio -- Complete Workflow Guide
+# AutoMagically Built Games -- Complete Workflow Guide
 
 > **How to go from zero to a shipped game using the Agent Architecture.**
 >
@@ -43,8 +43,8 @@ Before you start, make sure you have:
 ### Step 1: Clone and Open
 
 ```bash
-git clone <repo-url> my-game
-cd my-game
+git clone <repo-url> automagically-built-games
+cd automagically-built-games
 ```
 
 ### Step 2: Run /start
@@ -70,7 +70,7 @@ Start a new OpenCode session. You should see output from the
 `session-start.sh` hook:
 
 ```
-=== OpenCode PixiJS Game Studio -- Session Context ===
+=== AutoMagically Built Games -- Session Context ===
 Branch: main
 Recent commits:
   abc1234 Initial commit

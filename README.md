@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">AutoMagically</h1>
+  <h1 align="center">AutoMagically Built Games</h1>
   <p align="center">
     <em>PixiJS v8 + TypeScript browser game studio for OpenCode</em>
     <br />
@@ -140,8 +140,8 @@ Type `/` in OpenCode to access all 77 commands:
 ### Setup
 
 ```bash
-git clone <repo-url> my-game
-cd my-game
+git clone <repo-url> automagically-built-games
+cd automagically-built-games
 npm install
 npm run dev              # http://localhost:5173
 ```
@@ -214,6 +214,6 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 *Built for [OpenCode](https://opencode.ai).*
 
-Derived from [OpenCode PixiJS Game Studio](https://github.com/skinnerboxentertainment/AutoMagically)
+Forked from [OpenCode PixiJS Game Studio](https://github.com/skinnerboxentertainment/AutoMagically)
 by skinnerboxentertainment, which was itself derived from
 [Claude Code Game Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) by Donchitos.

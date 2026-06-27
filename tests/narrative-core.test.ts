@@ -19,7 +19,7 @@ function loadFixture(): NarrativeDocumentV2 {
 describe("narrative-core", () => {
   it("test_schema_validates_game_graph", () => {
     const doc = loadFixture()
-    expect(doc.metadata.title).toBe("AutoMagically Demo — Cat Grapple Platformer")
+    expect(doc.metadata.title).toBe("AutoMagically Built Games Demo — Cat Grapple Platformer")
     expect(Object.keys(doc.topology.nodes)).toHaveLength(7)
     expect(Object.keys(doc.topology.transitions)).toHaveLength(7)
   })

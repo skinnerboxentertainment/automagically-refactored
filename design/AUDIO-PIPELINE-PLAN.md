@@ -2,7 +2,7 @@
 
 ## Overview
 
-Add a complete browser game audio pipeline to AutoMagically: runtime library,
+Add a complete browser game audio pipeline to AutoMagically Built Games: runtime library,
 specialist agent, pipeline tools, procedural generation, and commands.
 
 ---

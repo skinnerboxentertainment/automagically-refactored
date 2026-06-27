@@ -1,6 +1,6 @@
 ---
 name: automagically-testing
-description: "Layered testing strategy for AutoMagically. Defines the testing pyramid, deterministic testing patterns, and when to use each test type. Load when writing tests, reviewing test coverage, or setting up test infrastructure."
+description: "Layered testing strategy for AutoMagically Built Games. Defines the testing pyramid, deterministic testing patterns, and when to use each test type. Load when writing tests, reviewing test coverage, or setting up test infrastructure."
 allowed-tools: Read, Glob, Grep, Write, Edit, Bash, Task, Question
 model: opencode-go/deepseek-v4-flash
 ---

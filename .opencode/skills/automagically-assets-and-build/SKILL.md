@@ -1,6 +1,6 @@
 ---
 name: automagically-assets-and-build
-description: "Asset loading and build configuration for AutoMagically. Defines PixiJS asset bundles, audio codec strategy, public/ vs import convention, spritesheet handling, font loading, and build settings. Load when adding assets, configuring Vite, or setting up the asset pipeline."
+description: "Asset loading and build configuration for AutoMagically Built Games. Defines PixiJS asset bundles, audio codec strategy, public/ vs import convention, spritesheet handling, font loading, and build settings. Load when adding assets, configuring Vite, or setting up the asset pipeline."
 allowed-tools: Read, Glob, Grep, Write, Edit, Bash, Task, Question
 model: opencode-go/deepseek-v4-flash
 ---
