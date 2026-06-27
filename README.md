@@ -15,6 +15,7 @@
   <a href=".opencode/commands"><img src="https://img.shields.io/badge/commands-77-green" alt="77 Commands"></a>
   <a href=".opencode/rules"><img src="https://img.shields.io/badge/rules-12-red" alt="12 Rules"></a>
   <a href="https://opencode.ai"><img src="https://img.shields.io/badge/powered%20by-OpenCode-6a0dad" alt="Powered by OpenCode"></a>
+  <a href=".github/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/skinnerboxentertainment/automagically-built-games/tests.yml?branch=master&label=CI" alt="CI"></a>
 </p>
 
 ---
