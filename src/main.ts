@@ -1,28 +1,11 @@
-import { Application, Container, Text, Graphics } from "pixi.js"
+import { Application, Graphics, Text } from "pixi.js"
 
 const app = new Application()
 
 async function init(): Promise<void> {
   await app.init({ resizeTo: window, background: 0x1a1a2e })
   document.body.appendChild(app.canvas)
-
-  const hasGameCode = await checkForGameCode()
-  if (hasGameCode) {
-    const { boot } = await import("./main-boot")
-    boot(app)
-  } else {
-    showWelcome(app)
-  }
-}
-
-async function checkForGameCode(): Promise<boolean> {
-  try {
-    const scenes = import.meta.glob("./scenes/*.ts")
-    const keys = Object.keys(scenes)
-    return keys.length > 0
-  } catch {
-    return false
-  }
+  showWelcome(app)
 }
 
 function showWelcome(app: Application): void {
