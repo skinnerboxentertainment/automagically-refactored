@@ -1,11 +1,11 @@
 <p align="center">
-  <h1 align="center">AutoMagically Built Games</h1>
+  <h1 align="center">AutoMagically Game Studio</h1>
   <p align="center">
-    <em>PixiJS v8 + TypeScript browser game studio for OpenCode</em>
+    <em>Stripped game-studio starter — PixiJS v8 + TypeScript for OpenCode</em>
     <br />
     Describe a game. Get a running build. Iterate.
     <br />
-    36 agents. 77 commands. PixiJS v8 rendering.
+    Infrastructure preserved, game code stripped, ready for /auto-build.
   </p>
 </p>
 
@@ -15,7 +15,7 @@
   <a href=".opencode/commands"><img src="https://img.shields.io/badge/commands-77-green" alt="77 Commands"></a>
   <a href=".opencode/rules"><img src="https://img.shields.io/badge/rules-12-red" alt="12 Rules"></a>
   <a href="https://opencode.ai"><img src="https://img.shields.io/badge/powered%20by-OpenCode-6a0dad" alt="Powered by OpenCode"></a>
-  <a href=".github/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/skinnerboxentertainment/automagically-built-games/tests.yml?branch=master&label=CI" alt="CI"></a>
+  <a href=".github/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/skinnerboxentertainment/automagically-refactored/tests.yml?branch=master&label=CI" alt="CI"></a>
 </p>
 
 ---
@@ -52,6 +52,22 @@ production → polish → release. 36 specialized agents handle design, art, aud
 QA, narrative, and production as you go.
 
 ---
+
+## What's Included
+
+This is a **stripped game-studio starter** — the full opencode agent pipeline,
+commands, rules, and genre templates are preserved, but all game-specific code
+has been removed. Run `/auto-build "your idea"` to scaffold a new game into the
+clean infrastructure.
+
+### Improvements over the base template
+
+- **InputManager**: click detection uses a proper `clickPending` flag (not lost
+  between frames)
+- **AudioManager**: generates retro SFX in-memory via jsfxr at init — no WAV
+  files, no network requests
+- **Tests**: core infrastructure tests (SceneManager, InputManager) + test
+  helpers (FakeClock, seeded-rng)
 
 ## What's Included
 
@@ -141,8 +157,8 @@ Type `/` in OpenCode to access all 77 commands:
 ### Setup
 
 ```bash
-git clone <repo-url> automagically-built-games
-cd automagically-built-games
+git clone <repo-url> automagically-game-studio
+cd automagically-game-studio
 npm install
 npm run dev              # http://localhost:5173
 ```
@@ -226,6 +242,6 @@ MIT License. See [LICENSE](LICENSE) for details.
 *Built with [OpenCode](https://opencode.ai) — the AI coding platform that
 orchestrates the studio agents, generates builds, and powers `/auto-build`.*
 
-Forked from [AutoMagically](https://github.com/skinnerboxentertainment/AutoMagically)
-by skinnerboxentertainment, which was itself derived from
-[Claude Code Game Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) by Donchitos.
+A stripped fork of [AutoMagically Built Games](https://github.com/skinnerboxentertainment/automagically-built-games)
+— game code removed, infrastructure improvements preserved. The original was
+itself derived from [Claude Code Game Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) by Donchitos.
